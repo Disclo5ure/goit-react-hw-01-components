@@ -1,0 +1,33 @@
+.statistics {
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 150px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
+    rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.stats {
+  margin: 0;
+  margin-top: auto;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.statsItem {
+  width: 80px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  outline: 1px solid red;
+}

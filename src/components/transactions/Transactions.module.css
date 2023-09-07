@@ -1,0 +1,24 @@
+.transactionsHistory {
+  margin-top: 100px;
+  margin-left: 150px;
+  width: 300px;
+}
+
+.head {
+  background-color: turquoise;
+}
+
+.cell {
+  width: 100px;
+  outline: 1px solid ligthgray;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.odd {
+  background-color: white;
+}
+
+.even {
+  background-color: lightgoldenrodyellow;
+}

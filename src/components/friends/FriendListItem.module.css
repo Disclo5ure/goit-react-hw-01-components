@@ -1,0 +1,26 @@
+.friendItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.status {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+.online {
+  composes: status;
+  background-color: green;
+}
+
+.offline {
+  composes: status;
+  background-color: red;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+}
